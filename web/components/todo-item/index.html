@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<template id="todoItemTemplate">
+			<style>
+				@import url( 'components/todo-item/index.css' );
+			</style>
+			<div class="item">
+				<div class="content">
+					<div class="checkbox left">
+						<input type="checkbox" class="finish-checkbox" />
+					</div>
+					<div class="text left ellipsis">
+						<label class="task-text" >Some Text</label>
+					</div>
+					<div class="delete right">
+						<input type="button" class="delete-task" value="Delete Task" />
+					</div>
+					<div class="clear" />
+				</div>
+			</div>
+		</template>
+		<script src="index.js" ></script>
+	</body>
+</html>

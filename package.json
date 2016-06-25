@@ -1,0 +1,25 @@
+{
+	"name": "todo-list-web-component",
+	"version": "0.0.1",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vbukach/todo-list-web-component.git"
+	},
+	"dependencies": {
+		"express": "^4.10.2"
+	},
+	"keywords": [
+		"web components",
+		"html5",
+		"css3",
+		"javascript",
+		"todo list"
+	],
+	"author": "Viacheslav Bukach",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/vbukach/todo-list-web-component/issues"
+	},
+	"homepage": "https://github.com/vbukach/todo-list-web-component#readme"
+}

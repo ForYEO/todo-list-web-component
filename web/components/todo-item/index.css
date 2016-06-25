@@ -1,0 +1,51 @@
+.item {
+	width: 330px;
+	height: auto;
+	margin: 0px auto;
+	margin-bottom: 3px;
+}
+
+.content {
+	width: 330px;
+	margin: 0px auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.checkbox {
+	margin: 0px auto;
+	vertical-align: middle;
+	text-align: center;
+	width: 10px;
+}
+
+.text {
+	margin: 0px auto;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 10px;
+	max-width: 200px;
+}
+
+.delete {
+	width: 90px;
+	margin-right: 10px;
+}

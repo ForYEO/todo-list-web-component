@@ -1,0 +1,46 @@
+
+.list {
+	background-color: wheat;
+	width: 350px;
+}
+
+.title {
+	background-color: wheat;
+	width: 50%;
+	margin: 0px auto;
+}
+
+.title > h3 {
+	margin: 0px auto;
+}
+
+.content {
+	background-color: wheat;
+	width: 350px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.tasks {
+	margin: 0px auto;
+	margin-top: 5px;
+	padding-left: 0px;
+}
+
+.entry {
+	margin: 0px auto;
+}
+
+.left {
+	float: left;
+	margin-left: 3px;
+}
+
+.right {
+	float: right;
+	margin-right: 3px;
+}
+
+.clear {
+	clear: both;
+}

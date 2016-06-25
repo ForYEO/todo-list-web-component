@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="import" id="todoItem" href="/components/todo-item/index.html">
+	</head>
+	<body>
+		<template id="todoListTemplate">
+			<style>
+				@import url( 'components/todo-list/index.css' );
+			</style>
+			<div class="list">
+				<div class="title">
+					<h3>ToDo List</h3>
+				</div>
+				<div class="entry">
+					<div class="left">
+						<label>Task name:</label>
+						<input type="text" class="task-title" />
+					</div>
+					<div class="right">
+						<input type="button" class="add-task" value ="Add Task"/>
+					</div>
+					<div class="clear" />
+				</div>
+				<div class="content">
+					<div class="tasks">
+					</div>
+				</div>
+				<input type="hidden" class="control-id" />
+			</div>
+		</template>
+		<script src="index.js" ></script>
+	</body>
+</html>
